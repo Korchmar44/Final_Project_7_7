@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Delivery\Delivery.cs" />
+    <Compile Include="Delivery\HomeDelivery.cs" />
+    <Compile Include="Delivery\PickPointDelivery.cs" />
+    <Compile Include="Delivery\ShopDelivery.cs" />
+    <Compile Include="Manager\DeliveryManager.cs" />
+    <Compile Include="Order\Order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AdditionalOrderInfo.cs" />
+    <Compile Include="Services\DeliverySelector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
